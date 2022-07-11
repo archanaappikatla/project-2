@@ -20,3 +20,4 @@ def RomanNumeralToDecimal(romanNumeral):
             sum += tallies[left]
     sum += tallies[romanNumeral[-1]]
     return sum
+print(RomanNumeralToDecimal(input()))
